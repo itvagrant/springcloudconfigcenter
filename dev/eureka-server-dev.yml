@@ -1,0 +1,12 @@
+server:
+  port: 8111
+eureka:
+  instance:
+    hostname: localhost
+#  单机配置时，防止自己注册自己。。会出现找不到
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+#  server:
+#    enable-self-preservation: false  #关闭自我保护模式，加速清理关停的节点 生产环境下不建议设置
+#    eviction-interval-timer-in-ms: 30000 #默认是60s ，设置为30s 生产环境下不建议设置
