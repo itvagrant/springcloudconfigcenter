@@ -1,0 +1,15 @@
+#用来测试远程配置的文件
+server:
+  port: 8763
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8111/eureka/
+person:
+ name: hs
+ age: 25
+ like: "writing,reading"
+ job:
+  type: "IT"
+  address: "chengDu,SiChuan"
+
