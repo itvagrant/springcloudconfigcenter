@@ -1,4 +1,10 @@
 #用来测试远程配置的文件
+spring:
+  rabbitmq:
+    host: localhost
+    port: 15672
+    username: guest
+    password: guest
 server:
   port: 8763
 eureka:
