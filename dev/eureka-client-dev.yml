@@ -6,7 +6,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8111/eureka/
 person:
- name: hs
+ name: hs_nb
  age: 25
  like: "writing,reading"
  job:
